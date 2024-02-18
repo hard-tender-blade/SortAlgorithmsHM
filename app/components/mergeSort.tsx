@@ -7,6 +7,8 @@ export default function MergeSort() {
     //# Sort algorithm
     const sortName = '👨‍❤️‍💋‍👨 Merge sort O(n log n)'
     const imgName = 'mergeSort.jpg'
+    const url =
+        'https://github.com/hard-tender-blade/SortAlgorithmsHM/blob/main/app/scripts/mergeSort.ts'
     const { shortArr, mediumArr, longArr } = scripts.createArraysWithRandomNumbers()
 
     //# Run the sort algorithm
@@ -43,6 +45,9 @@ export default function MergeSort() {
             </div>
 
             <h2 className="text-2xl font-medium">Implementation</h2>
+            <a href={url} className="text-blue-500 underline">
+                Go to git
+            </a>
             <img src={imgName} className="rounded" />
 
             <div className="mt-5 flex flex-col gap-4">

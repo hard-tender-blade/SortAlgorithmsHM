@@ -7,6 +7,8 @@ export default function HeapSort() {
     //# Sort algorithm
     const sortName = '🏔️ Heap sort O(n log n)'
     const imgName = 'heapSort.jpg'
+    const url =
+        'https://github.com/hard-tender-blade/SortAlgorithmsHM/blob/main/app/scripts/heapSort.ts'
     const { shortArr, mediumArr, longArr } = scripts.createArraysWithRandomNumbers()
 
     //# Run the sort algorithm
@@ -41,6 +43,9 @@ export default function HeapSort() {
                 <SortRunExample arr={longArr} time={longTime} />
             </div>
             <h2 className="text-2xl font-medium">Implementation</h2>
+            <a href={url} className="text-blue-500 underline">
+                Go to git
+            </a>
             <img src={imgName} className="rounded" />
             <h2 className="text-2xl font-medium">Cool visualization</h2>
             <iframe

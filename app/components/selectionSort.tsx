@@ -7,6 +7,8 @@ export default function SelectionSort() {
     //# Sort algorithm
     const sortName = '💅 Selection sort O(n^2)'
     const imgName = 'selectionSort.jpg'
+    const url =
+        'https://github.com/hard-tender-blade/SortAlgorithmsHM/blob/main/app/scripts/selectionSort.ts'
     const { shortArr, mediumArr, longArr } = scripts.createArraysWithRandomNumbers()
 
     //# Run the sort algorithm
@@ -43,6 +45,9 @@ export default function SelectionSort() {
             </div>
 
             <h2 className="text-2xl font-medium">Implementation</h2>
+            <a href={url} className="text-blue-500 underline">
+                Go to git
+            </a>
             <img src={imgName} className="rounded" />
         </div>
     )
